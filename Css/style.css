@@ -1,0 +1,72 @@
+
+.intro{
+	height: 600px;
+	width: 1114px;
+}
+#pic1{
+	border-radius: 1200px;
+	width: 600px;
+	height:600px;
+}
+#headerstyle
+{
+	background-color: #0000066;
+	padding -top: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border: transparent;
+
+    
+}
+a{
+	color:black;
+}
+.bobycover
+{
+	background: url("../Images/cover.jpg") no-repeat center;
+}
+.intro{
+	padding-top: 200px;
+	padding-left: 100px;
+}
+#foodbg{
+	background: url("../Images/food3.jpg")no-repeat center;
+	padding-left: 0;
+	margin-right: 0;
+}
+#hosp{
+	background: url("../Images/hosp.png") no-repeat center;
+}
+#store{
+	background: url("../Images/locket2.jpg") no-repeat center;
+}
+.footersection{
+	font-family: italic;
+	font-size: 20px;
+	background-color:;
+	text-align: center;
+} 
+#mobile{
+   display: none;
+ }
+ #web{
+   display: flex;
+ }
+
+ @media only screen and (max-width:760px){
+ #mobile{
+   display: flex;
+ }
+ #web{
+   display: none;
+ }
+ #image{
+   display: none;
+ }
+}
+#cardpart{
+	margin top: 20px;
+}
+	.colourview{
+background-color:pink;
+}
