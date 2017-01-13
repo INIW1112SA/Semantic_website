@@ -1,7 +1,5 @@
-
-.intro{
-	height: 600px;
-	width: 1114px;
+#seg p{
+	margin-left: 10px;
 }
 #pic1{
 	border-radius: 1200px;
@@ -16,7 +14,21 @@
 	margin-left: 0px;
 	border: transparent;
 
+
     
+}
+ .intro.tagline{
+	background-position: 50% 50%;
+	
+	
+
+}
+.description p{
+
+	text-align:justify;
+	margin-left: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
 }
 a{
 	color:black;
@@ -24,11 +36,18 @@ a{
 .bobycover
 {
 	background: url("../Images/cover.jpg") no-repeat center;
+	padding-top: -350px;
+	    min-height: 800px;
+	    background-size: cover;
+	    background-position: bottom;
+	    background-position: 50% 50%;
 }
 .intro{
-	padding-top: 200px;
-	padding-left: 100px;
+	text-align: center;
+	margin: 0;
+	padding-top: 400px;
 }
+
 #foodbg{
 	background: url("../Images/food3.jpg")no-repeat center;
 	padding-left: 0;
@@ -43,7 +62,7 @@ a{
 .footersection{
 	font-family: italic;
 	font-size: 20px;
-	background-color:;
+    
 	text-align: center;
 } 
 #mobile{
@@ -52,6 +71,7 @@ a{
  #web{
    display: flex;
  }
+
 
  @media only screen and (max-width:760px){
  #mobile{
@@ -70,3 +90,37 @@ a{
 	.colourview{
 background-color:pink;
 }
+
+
+
+
+.signcover {
+    background: url('../Images/1.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-holder {
+    background: rgba(255,255,255,0.2);
+    margin-top: 10%;
+    border-radius: 3px;
+  }
+
+  .form-head {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 30px #000;
+    margin: 15px auto 30px auto;
+  }
+
+  .remember-me {
+    text-align: left;
+  }
+  .ui.checkbox label {
+    color: #ddd;
+  }
+
+
