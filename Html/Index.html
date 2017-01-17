@@ -31,7 +31,7 @@
    							        <div class="ui logo image"><!--div part logo-->
    								        <img   src="D:\workspace\semantic\Pets_House\Images\l1.png">
    							        </div>
-                        <!--menu-->
+                        <!--menu that contains all button that on menubar option-->
                         <button class="ui animated right item inverted white button" tabindex="0">
    						
 	   							       <div class="visible content">HOME</div>
@@ -81,9 +81,10 @@
    				
    			</header>
         <!--menu for mobile view-->
-          <div class="ui top fixed stackable labeled  icon menu" id="mobile">
+          <div class="ui top fixed stackable labelled  icon menu" id="mobile">
               <div class="item" id="sidebarmenu">
                 <i class="sidebar icon"></i>Menu
+                 <!--menu for mobile view displays as sidebar view-->
                 <div id="sidemenu" class="ui sidebar inverted vertical left menu mobsidebar" style="margin-top:10px;">
                      <a href="#" class="item">HOME</a>
                      <a href="#" class="item">ABOUT</a>
@@ -117,10 +118,10 @@
 <!--cards usuage-->
  
 <div class="ui three stackable cards" style="padding-top:50px">
-  <!--first card-->
+  <!--first card that contains yellow fish-->
   	<div class="card">
     	<div class="image">
-      		<img src="../Images/1.jpg">
+      		<img src="../Images/yellowfish.jpg">
     	</div>
     	<div class="content">
     	       		<a class="header"> Yellow Fish</a>
@@ -133,10 +134,10 @@
     					</div>	
     			</div>
 	</div>
-  <!--second card-->
+  <!--second card that contains golden retriever-->
 	<div class="card">
     	<div class="image">
-      		<img src="../Images/do9.jpg">
+      		<img src="../Images/goldenretriever.jpg">
     	</div>
     	<div class="content">
     	       		<a class="header">Golden Retriever</a>
@@ -149,13 +150,13 @@
     					</div>	
     			</div>
 	</div>
-  <!--third card-->
+  <!--third card that contains eclectus-->
 	<div class="card">
     	<div class="image">
-      		<img src="../Images/2.jpg">
+      		<img src="../Images/eclectus.jpg">
     	</div>
     	<div class="content">
-    	       		<a class="header">Eclectus Yellow</a>
+    	       		<a class="header">Eclectus</a>
     	        		<div class="description">Eclectus native to the Solomon Islands which are the most sexually dimorphic of all the parrot species</div>
     	        		<div class="extra content">
     	      				<div class="ui two buttons">
@@ -176,7 +177,7 @@
       <div class="ui slide masked reveal image">
             
               <img src="../Images/cats.jpg" class="visible content">
-              <img src="../Images/dg5.jpg" class="hidden content">
+              <img src="../Images/dog.jpg" class="hidden content">
             </div>
             <div class="content">
               <a class="header"><h3>why pets</h3></a>
@@ -201,39 +202,49 @@
   </div>
   <!--3 row-->
   <div class="column">
-    <div class="ui segment"> <!--first segment-->
+    <div class="ui segment"> <!--first segments  that contains pets food-->
 
                               <div id="foodbg" class="ui stacked segment">
+                                <!--icon for list in pets food part -->
+
                                 <i class="list layout huge icon"></i>
                             <div id="seg">
                             <h3>PETS FOOD</h3>
                             <p style ="color:800000" >Feed Healthy Food 
                             </p>
+                            <!--button for food order for pets-->
+
                             <button class="ui inverted black button">
                             	Find Whats There To Feed !!!
                                 </button>
                             </div>
                         </div>
                         <div class="ui hidden divider"></div>
-                          <!--second segment-->
+                          <!--second segment that contains pets care part-->
                         <div id="hosp" class="ui stacked segment">
+                          <!--icon for list in hospitals part -->
+
                             <i class="Hospital huge icon"></i>
                             <div id="seg">
                             <h3>PETS CARE</h3>
                             <p style ="color:800000">We Care For Your Pets.</p>
+                            <!--button for hospitals facilities pets-->
+
                             <button class="ui inverted black button">
                             	We Are Here !!!
                             </button>
                             </div>
                         </div>
                         <div class="ui hidden divider"></div>
-                         <!--third segment-->
+                         <!--third segment that contains gifts for pets-->
                         <div id="store"class="ui stacked segment">
-                            <img src="../Images/log.png">
+                            <img src="../Images/belt.png">
                             <div id="seg">
                             <h3> Gift Your Pet</h3>
                             <p style ="color:800000"> Personalized Gift for Pet Lovers
                               </p>
+                               <!--button to shop for pets-->  
+
                             <button class="ui inverted  black button">
                                 Shop here</button>
                             </div>
@@ -296,9 +307,7 @@
 </body>
 
 <script>
-$('.special.cards .image').dimmer({
-  on: 'hover'
-});
+
 $('#sidebarmenu').click(function(){
    $('.mobsidebar').sidebar('toggle');
  });
